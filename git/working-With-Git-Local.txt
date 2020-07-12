@@ -17,6 +17,7 @@ scenario 2: in a git local repository add more files, edit some files, remove so
 	git add . ( we can give the individual file names OR just give dot (.) to stage all the changes in the project )
 	git commit -m "added files"
 	vi heloworld.java ( opens the file in editor - enter some text & save it )
+	:wq (closes the file in editor)
 	git status -- to check changes made
 	git add .
 	git commit -m "modified heloworld.java"
